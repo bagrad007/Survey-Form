@@ -1,9 +1,37 @@
-p {
-   
+html { 
+        background: url(https://unsplash.com/photos/w7ZyuGYNpRQ/download) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        font-size: 20px;
+      }
+
+    #text-box-padding {
+        padding: 10px 500px 10px 0;
+    }  
+
+    .div-element {
+        border: transparent;
+        border-radius: 5px;
+        width: fit-content;
+        padding: 10px;
+        margin: 0 20px 100px 750px;
+        text-align: left;
+        background-color: rgb(77, 108, 207);
+    }
+
+#text-center {
+    text-align: center;
 }
 
 body {
     text-align: center;
-    <!--background-image: url(https://unsplash.com/photos/w7ZyuGYNpRQ/download);-->
-    background-size: auto;
+    color: white;
+    padding: 10px;
+   
+}
+
+.select-size {
+    box-sizing: 0px;
 }

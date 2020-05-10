@@ -3,24 +3,25 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<div>
 <h1>freeCodeCamp Survey Form</h1>
 <p>Thank you for taking the time to help us improve the platform</p>
-</div>
-<div>
-<h3>Name</h3>
-<input type="text" placeholder="Enter your name">
-</div>
-<div>
-<h3>Email</h3>
-<input type="text" placeholder="Enter your Email"> 
-</div>
-<div>
-<h3>Age (optional)</h3>
-<input type="text" placeholder="Age">
-</div>
-<div>
-<h3>Which option best describes your current role?</h3>
+
+<div class="div-element">
+
+    <h3 class="h3-name"> Name</h3>
+
+<input type="text" placeholder="Enter your name" id="text-box-padding">
+
+<h3> Email</h3>
+
+<input type="text" placeholder="Enter your Email" id="text-box-padding"> 
+
+<h3> Age (optional)</h3>
+
+<input type="text" placeholder="Age" id="text-box-padding">
+
+<h3> Which option best describes your current role?</h3>
+
 <form>
     <label for="role">
     </label>
@@ -32,21 +33,20 @@
         <option value="Part-Time">Part-Time</option>
         <option value= "Other">Other</option>
         </select>
-</form>
-</div>
-<div>
+
+    </form>
+
 <form>
-    <h3>Would you recommend freeCodeCamp to a friend</h3>
+    <h3> Would you recommend freeCodeCamp to a friend</h3>
     <input type="radio" id="Definitely" name=friend value="Definitely">
     <label for="Definitely">Definitely</label><br>
     <input type="radio" id="Maybe" name= friend value="Maybe">
     <label for="Maybe">Maybe</label><br>
     <input type="radio" id="Not at all" name=friend value="Not at all">
     <label for="Not at all">Not at all</label>
-</form> 
-</div>
+    </form> 
 <form>
-    <h3>What is your favorite feature of freeCodeCamp?</h3>
+    <h3> What is your favorite feature of freeCodeCamp?</h3>
     <label for= "option">
     </label>
     <select id="option">
@@ -57,9 +57,58 @@
         <option value="projects">Projects</option>
     
     </select>
+    </form>
+<h3> What would you like to see improved? (Check all that apply)</h3>
 
 
+<form class="checkbox-padding">
+    <label for="front-end-projects" id="front-end-projects">
+        <input type="checkbox" name="improved"> Front End Projects</label><br>
+    
+    <label for="back-end-projects" id="back-end-projects">
+        <input type="checkbox" name="improved"> Back End Projects</label><br>
+    
+    <label for="data-visualization" id= "data-visualization">
+        <input type="checkbox" name="improved"> Data Visualization</label><br>
+    
+    <label for="challenges" id= "challenges">
+        <input type="checkbox" name="improved"> Challenges</label><br>
+    
+    <label for= "open-source-community" id= "open-source-community"> 
+        <input type="checkbox" name= "improved"> Open Source Community</label><br>
+    
+    <label for= "gitter-help-rooms" id= "gitter-help-rooms"> 
+        <input type="checkbox" name="improved"> Gitter Help Rooms</label> <br>
+    
+    <label for= "videos" id= "videos"> 
+        <input type="checkbox" name="improved"> Videos</label><br>
+    
+    
+    <label for= "city-meetups" id="city-meetups"> 
+        <input type="checkbox" name= "improved"> City Meetups</label> <br>
+    
+    <label for="wiki" id="wiki"> 
+        <input type="checkbox" name="improved"> Wiki</label><br>
+    
+    <label for= "forum" id="forum">
+        <input type="checkbox" name="improved"> Forum</label><br>
+    
+    <label for="additional-courses" name= "additional-courses">
+        <input type="checkbox" name= "improved"> Additional Courses</label><br>
 </form>
+
+<form id="text-center">
+
+<h3> Any comments or suggestions?</h3>
+
+<input type="text" placeholder="Enter your comment here..."> 
+</form>
+
+<form id="text-center">
+    <button type="submit">Submit</button>
+</form>
+
+</div>
 
 
 </body>
