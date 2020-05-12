@@ -1,27 +1,33 @@
-html { 
-        background: url(https://unsplash.com/photos/w7ZyuGYNpRQ/download) no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        font-size: 20px;
-      }
+html {
+    background: url(https://unsplash.com/photos/w7ZyuGYNpRQ/download) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 20px;
+    font-family: sans-serif Arial, Helvetica, sans-serif;
+}
 
-    #text-box-padding {
-        padding: 10px 500px 10px 0;
-    }  
+.input-class {
+    width: 90%;
+    padding: 0 0 10px 0;
+}
 
-    .div-element {
-        border: transparent;
-        border-radius: 5px;
-        width: fit-content;
-        padding: 10px;
-        margin: 0 20px 100px 750px;
-        text-align: left;
-        background-color: rgb(77, 108, 207);
-    }
+.div-element {
+    border: transparent;
+    border-radius: 5px;
+    width: 650px;
+    padding: 10px;
+    text-align: ;
+    background-color: rgb(55, 22, 70, 0.9);
+    display: inline-block;
+}
 
-#text-center {
+label {
+    display: block;
+}
+
+.text-center {
     text-align: center;
 }
 
@@ -29,9 +35,21 @@ body {
     text-align: center;
     color: white;
     padding: 10px;
-   
 }
 
 .select-size {
     box-sizing: 0px;
+}
+
+h3 {
+    font-weight: 100%;
+}
+
+textarea {
+    width: 90%;
+    resize: vertical;
+}
+
+.button-width: {
+    width: 90%;
 }
