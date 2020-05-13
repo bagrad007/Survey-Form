@@ -7,3 +7,8 @@ html {
     font-size: 20px;
     font-family: sans-serif Arial, Helvetica, sans-serif;
 }
+
+.div-border {
+    border: black;
+    background-color: darkslateblue;
+}
