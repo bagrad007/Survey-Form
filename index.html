@@ -12,44 +12,46 @@
 </head>
 
 <body class="text-color">
-    <div>
+    <div class="header-padding">
         <header>
             <h1 class="text-center">freeCodeCamp Survey Form</h1>
-            <p class="text-center">Thank you for taking the time to help us improve the platform</p>
+            <p class="text-center p-header">Thank you for taking the time to help us improve the platform</p>
         </header>
     </div>
 
-    <div class="div-border container-fluid">
-
-        <form>
-            <div class="container">
+    <div class="container">
+        <form class="div-border">
+        
+            <div class="row align-items-center">
 
                 <div class="form-group">
-                    <label for="name-input">Name</label>
+                    <label for="name-input" style="font-size: large;">Name</label>
 
                     <input id="name-input" class="form-control" type="text" placeholder="Enter your name">
                 </div>
 
                 <div class="form-group">
-                    <label for="email-input"> Email</label>
+                    <label for= "email-input" style="font-size: large;"> Email</label>
 
                     <input id="email-input" class="form-control" type="text" placeholder="Enter your Email">
                 </div>
                 <div class="form-group">
 
-                    <label for="age-input"> Age <small>(optional)</small></label>
+                    <label for="age-input" style="font-size: large;"> Age <small>(optional)</small></label>
 
                     <input id="age-input" class="form-control" type="text" placeholder="Age">
-                </div>
+                </div> 
             </div>
-        </form>
-        <div>
+        
 
-            <!--
+    </div>
+    <div class="container">
+
+            
 
             <h3> Which option best describes your current role?</h3>
 
-            <form>
+            
                 <label for="role">
                 </label>
                 <select id="role">
@@ -60,11 +62,11 @@
                     <option value="Part-Time">Part-Time</option>
                     <option value="Other">Other</option>
                 </select>
-            </form>
+            
         </div>
-
+    <!--
         <div>
-            <form>
+            
                 <h3> Would you recommend freeCodeCamp to a friend</h3>
                 <input type="radio" id="Definitely" name=friend value="Definitely">
                 <label for="Definitely">Definitely</label><br>
@@ -72,11 +74,11 @@
                 <label for="Maybe">Maybe</label><br>
                 <input type="radio" id="Not at all" name=friend value="Not at all">
                 <label for="Not at all">Not at all</label>
-            </form>
+            
         </div>
 
         <div>
-            <form>
+            
                 <h3> What is your favorite feature of freeCodeCamp?</h3>
                 <label for="option">
                 </label>
@@ -88,13 +90,13 @@
                     <option value="projects">Projects</option>
 
                 </select>
-            </form>
+            
         </div>
 
         <h3> What would you like to see improved? <small>(Check all that apply)</small></h3>
 
         <div>
-            <form>
+            
                 <label for="front-end-projects" id="front-end-projects">
                     <input type="checkbox" name="improved"> Front End Projects</label><br>
 
@@ -128,24 +130,25 @@
 
                 <label for="additional-courses" name="additional-courses">
                     <input type="checkbox" name="improved"> Additional Courses</label><br>
-            </form>
+            
         </div>
 
         <div>
-            <form>
+            
 
                 <h3> Any comments or suggestions?</h3>
 
                 <label for="comments"></label>
                 <textarea id="comments" placeholder="Enter Your Comments Here"></textarea>
 
-            </form>
+            
         </div>
-        <form>
+        
             <button type="submit" class="btn btn-default btn-block">Submit</button>
-        </form>
+        
     -->
-        </div>
+</form>
+    </div>
 
 
 </body>
