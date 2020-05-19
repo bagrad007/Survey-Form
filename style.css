@@ -4,7 +4,7 @@ html {
 }
 body {
     
-    background-image: url(https://unsplash.com/photos/w7ZyuGYNpRQ/download);
+    background-image: linear-gradient(100deg,rgba(75, 56, 105, 0.452), rgba(107, 4, 167,0.65)), url(https://unsplash.com/photos/w7ZyuGYNpRQ/download);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
